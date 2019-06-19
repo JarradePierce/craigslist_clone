@@ -5,7 +5,7 @@ export default class Home extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Jarrade'
     }
   }
 
@@ -47,6 +47,7 @@ loopTags = () => {
     return (
       <div className='home'>
         <div className='container'>
+        <h1>{this.state.name}</h1>
           <h1>Connecting People <br/>Everywhere</h1>
           <section className='links'>
             {this.loopCategories()}
